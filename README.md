@@ -11,9 +11,17 @@ esercitazioni_oii
        costituite da lettere dell'alfabeto anglosassone codificate in codice ASCII, e la loro lunghezza massima è di 100 caratteri.
 	Il file "output.txt" contiene una sola riga: La parola "SI" se "s1" è un anagramma di "s2", oppure la parola "NO" in caso contrario.
 
- - Programma "matr.c": Programma che ricevuta una matrice di interi "matr[n][m]" in input, la stampa in output, dapprima in ordine crescente, successivamente in ordine decrescente; 
-   infine stampa la somma della diagonale minore e della diagonale maggiore e la somma di tutti i valori costituenti la matrice.
+ - Programma "matr.c": Programma che ricevuta una matrice di interi "matr[n][m]" in input, la stampa in output; infine stampa la somma della diagonale minore e della diagonale maggiore e la 
+   somma di tutti i valori costituenti la matrice.
 	Il file "input.txt" è composto da due righe: La prima contiene il numero di righe "n" ed il numero di colonne "m". La seconda riga contiene i singoli valori delle celle 
 	che costituiscono la matrice.
-	Il file "output.txt" è composto da quattro righe: La prima contiene la matrice prima di ogni operazione; la seconda contiene la matrice ordinata in ordine crescente; la terza, la matrice
-	ordinata in ordine decrescente; la quarta, la somma della diagonale maggiore, la quinta, la somma della diagonale maggiore; la sesta, la somma di tutti i valori costituenti la matrice.
+	Il file "output.txt" è composto da quattro righe: La prima contiene la matrice prima di ogni operazione; la seconda, la somma della diagonale maggiore, terza, la somma della diagonale
+	minore; la quarta, la somma di tutti i valori costituenti la matrice.
+
+ - Programma "fib.c": Programma che stampa in output sul file "output.txt" i primi 10 elementi della Serie di Fibonacci mediante l'uso di una funzione ricorsiva.
+	Il file "output.tzt" è costituito da 10 righe, una per ogni elemento stampato.
+
+ - Programma "potcoda.c": Programma che mediante la ricorsione in coda, stampa in output sul fil "output.txt" la potenza di un numero elevato per un esponente, entrambi ricevuti in input dal 
+   file "input.txt"
+	Il file input.txt è costituito da 2 righe: la prima contiene la base e la seconda l'esponente della potenza.
+	Il file "output.txt" è costituito da un'unica riga che contiene il risultato della potenza base^esponente.
